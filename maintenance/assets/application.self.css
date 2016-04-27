@@ -7222,7 +7222,7 @@ body.show-left-nav .page-bar, body.show-left-nav .navbar-default {
 
 /* line 53, /Users/kv109/projects/ovp-captables/app/assets/stylesheets/common/_navbar.sass */
 .navbar-brand {
-  background: transparent url(/assets/svg/ovp-logo.svg) center center no-repeat;
+  background: transparent url(svg/ovp-logo.svg) center center no-repeat;
   width: 145px;
   background-size: contain;
 }
@@ -7360,15 +7360,15 @@ body.show-left-nav .page-bar, body.show-left-nav .navbar-default {
 
 @font-face {
   font-family: "ovp-icons";
-  src: url(/assets/ovp-icons.eot);
-  src: url(/assets/ovp-icons.eot?#iefix) format("embedded-opentype"), url(/assets/ovp-icons.woff) format("woff"), url(/assets/ovp-icons.ttf) format("truetype"), url(/assets/ovp-icons.svg#ovp-icons) format("svg");
+  src: url(ovp-icons.eot);
+  src: url(ovp-icons.eot?) format("embedded-opentype"), url(ovp-icons.woff) format("woff"), url(ovp-icons.ttf) format("truetype"), url(ovp-icons.svg) format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "ovp-icons";
-    src: url(/assets/ovp-icons.svg#ovp-icons) format("svg");
+    src: url(ovp-icons.svg) format("svg");
   }
 }
 /* line 23, /Users/kv109/projects/ovp-captables/app/assets/stylesheets/common/_ovp-icons-rails.scss */
@@ -10379,7 +10379,7 @@ div.disabled > .toggle-slide {
 
 /* line 1, /Users/kv109/projects/ovp-captables/app/assets/stylesheets/pages/_devise.sass */
 .devise-body {
-  background: transparent url(/assets/login-bg.jpg) center center no-repeat;
+  background: transparent url(login-bg.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -11323,7 +11323,7 @@ div.disabled > .toggle-slide {
 
 /* line 1, /Users/kv109/projects/ovp-captables/app/assets/stylesheets/pages/welcome_page/_header.sass */
 header {
-  background: transparent url(/assets/header.jpg) center center no-repeat;
+  background: transparent url(login-bg.jpg) center center no-repeat;
   background-size: cover;
   border-bottom: solid 1px #e3e5e7;
   color: #fff;
@@ -11336,29 +11336,25 @@ header .header-logo {
   margin: 0 auto 10px auto;
   width: 250px;
   height: 70px;
-  background: transparent url(/assets/svg/ovp-logo-white.svg) center center no-repeat;
+  background: transparent url(svg/ovp-logo-white.svg) center center no-repeat;
 }
-/* line 17, /Users/kv109/projects/ovp-captables/app/assets/stylesheets/pages/welcome_page/_header.sass */
-header .header-content:before {
-  content: " ";
+/* line 16, /Users/kv109/projects/ovp-captables/app/assets/stylesheets/pages/welcome_page/_header.sass */
+header .header-content {
   display: block;
-  margin: 10px auto;
-  height: 1px;
-  width: 60px;
-  background-color: #fff;
+  margin: 100px auto;
 }
-/* line 25, /Users/kv109/projects/ovp-captables/app/assets/stylesheets/pages/welcome_page/_header.sass */
+/* line 30, /Users/kv109/projects/ovp-captables/app/assets/stylesheets/pages/welcome_page/_header.sass */
 header p {
   font-size: 18px;
 }
-/* line 29, /Users/kv109/projects/ovp-captables/app/assets/stylesheets/pages/welcome_page/_header.sass */
+/* line 34, /Users/kv109/projects/ovp-captables/app/assets/stylesheets/pages/welcome_page/_header.sass */
 header .btn.btn-primary, header .dataTables_wrapper .dataTables_paginate .btn-primary.paginate_button, .dataTables_wrapper .dataTables_paginate header .btn-primary.paginate_button, header .page-bar__control p.btn-primary:only-child, .page-bar__control header p.btn-primary:only-child {
   margin-top: 225px;
   width: 200px;
   background-color: #419AD8;
   border: 1px solid #419AD8;
 }
-/* line 35, /Users/kv109/projects/ovp-captables/app/assets/stylesheets/pages/welcome_page/_header.sass */
+/* line 40, /Users/kv109/projects/ovp-captables/app/assets/stylesheets/pages/welcome_page/_header.sass */
 header .btn.btn-primary:hover, header .dataTables_wrapper .dataTables_paginate .btn-primary.paginate_button:hover, .dataTables_wrapper .dataTables_paginate header .btn-primary.paginate_button:hover, header .page-bar__control p.btn-primary:hover:only-child, .page-bar__control header p.btn-primary:hover:only-child {
   background-color: #2372aa;
   border-color: #2372aa;
@@ -11437,7 +11433,7 @@ header .btn.btn-primary:hover, header .dataTables_wrapper .dataTables_paginate .
 }
 /* line 1, /Users/kv109/projects/ovp-captables/app/assets/stylesheets/pages/welcome_page/_learn.sass */
 .learn-about {
-  background: transparent url(/assets/learn-bg.jpg) center center no-repeat;
+  background: transparent url(learn-bg.jpg) center center no-repeat;
   background-size: cover;
   border-top: 1px solid #e3e5e7;
   padding-bottom: 40px;
@@ -11485,7 +11481,7 @@ header .btn.btn-primary:hover, header .dataTables_wrapper .dataTables_paginate .
 .learn-about .learn-description ul li {
   padding-left: 26px;
   line-height: 30px;
-  background: transparent url(/assets/svg/welcome-learn-checkmark.svg) center left no-repeat;
+  background: transparent url(svg/welcome-learn-checkmark.svg) center left no-repeat;
   background-size: 16px;
 }
 /* line 42, /Users/kv109/projects/ovp-captables/app/assets/stylesheets/pages/welcome_page/_learn.sass */
@@ -11555,7 +11551,7 @@ header .btn.btn-primary:hover, header .dataTables_wrapper .dataTables_paginate .
 }
 /* line 14, /Users/kv109/projects/ovp-captables/app/assets/stylesheets/pages/welcome_page/_footer.sass */
 .welcome-index .footer .ovp-logo {
-  background: transparent url(/assets/svg/ovp-logo-white.svg) center left no-repeat;
+  background: transparent url(svg/ovp-logo-white.svg) center left no-repeat;
   width: 250px;
   height: 50px;
   display: block;
